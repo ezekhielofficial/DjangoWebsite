@@ -57,7 +57,7 @@ ROOT_URLCONF = 'TestSite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/xin/Documents/DProj/TestSite/Templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
